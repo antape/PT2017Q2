@@ -10,19 +10,13 @@ namespace Lab1
     {
         static void Main(string[] args)
         {
-            Student s = new Student("Anuar", "Jussupov", 21, 4.0, 2);
-            
-           
-            Console.WriteLine("Name: {0} \nSurname: {1} \nAge: {2} \nGPA: {3} \nCourse: {4}", s.name, s.surname, s.age, s.gpa, s.course);
+           Student s = new Student("Anuar", "Jussupov", 21, 4.0, 2);                  
+           Console.WriteLine("Name: {0} \nSurname: {1} \nAge: {2} \nGPA: {3} \nCourse: {4}", s.name, s.surname, s.age, s.gpa, s.course);
+            Console.WriteLine(s);
 
-            
+
             Student[] s_t = new Student[2];
             
-            
-
-            
-
-           
             for (int i = 0; i < s_t.Length; i++)
             {
                 Console.WriteLine("\nStudent #{0}", i+1);
@@ -41,20 +35,13 @@ namespace Lab1
                 Console.WriteLine("Done... \n\n");
             }
 
-
-
-
             Console.WriteLine("\n Database"); 
 
             for (int i = 0; i < s_t.Length; i++)
             {
-                Console.WriteLine("\n\nName: {0} \nSurname: {1} \nAge: {2} \nGPA: {3} \nCourse: {4}", s_t[i].name, s_t[i].surname, s_t[i].age, s_t[i].gpa, s_t[i].course);
-                
-                   
+               Console.WriteLine("\n\nName: {0} \nSurname: {1} \nAge: {2} \nGPA: {3} \nCourse: {4}", s_t[i].name, s_t[i].surname, s_t[i].age, s_t[i].gpa, s_t[i].course);
             }
             
-
-
             Console.ReadKey();
         }
     }
@@ -74,6 +61,13 @@ namespace Lab1
             age = _age;
             gpa = _gpa;
             course = _course;  
+        }
+
+        public override string ToString()
+        {
+            // Необходимо вывести все данные, которые должен видеть пользователь при вызове меода Console.WriteLine(student);	
+            return name + "\n" + surname + "\n" + age + "\n" + gpa + "\n" + course + "\n";
+
         }
 
     }
