@@ -1,0 +1,5 @@
+C:\Users\Anuar\Source\Repos\PT2017Q2\Lab1\bin\Release\Lab1.exe.config
+C:\Users\Anuar\Source\Repos\PT2017Q2\Lab1\bin\Release\Lab1.exe
+C:\Users\Anuar\Source\Repos\PT2017Q2\Lab1\bin\Release\Lab1.pdb
+C:\Users\Anuar\Source\Repos\PT2017Q2\Lab1\obj\Release\Lab1.exe
+C:\Users\Anuar\Source\Repos\PT2017Q2\Lab1\obj\Release\Lab1.pdb

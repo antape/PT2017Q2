@@ -1,1 +1,6 @@
 C:\Users\Anuar\Source\Repos\PT2017Q2\Lab1\bin\Debug\Lab1.exe.config
+C:\Users\Anuar\Source\Repos\PT2017Q2\Lab1\bin\Debug\Lab1.exe
+C:\Users\Anuar\Source\Repos\PT2017Q2\Lab1\bin\Debug\Lab1.pdb
+C:\Users\Anuar\Source\Repos\PT2017Q2\Lab1\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
+C:\Users\Anuar\Source\Repos\PT2017Q2\Lab1\obj\Debug\Lab1.exe
+C:\Users\Anuar\Source\Repos\PT2017Q2\Lab1\obj\Debug\Lab1.pdb
