@@ -12,7 +12,7 @@ namespace Lab2._1
     {
         static void Main(string[] args)
         {
-                   
+            //создаю фаил и заношу в него данные       
             FileStream file = new FileStream(@"D:\lab2.txt", FileMode.Create);
             StreamWriter sw = new StreamWriter(file);
             sw.WriteLine("1235 1455 1898 1423");
@@ -20,36 +20,33 @@ namespace Lab2._1
             sw.Close();
             file.Close();
            
-            //считывания файла и занесение в массив
+            //считывания содержимое как string и через сплит заносим в массив типа string
             string text = File.ReadAllText(@"D:\lab2.txt");
             Console.WriteLine("Файл lab2.txt создан\n\nСодержимое файла:\n{0}", text);
             string[] temp = text.Split(' ','\n');
 
-            //скидываем все в лист
-            List<int> numbers = new List<int>();
-            List<int> prime = new List<int>();
+            //почитал документацию, нашел как тут пользоваться листом
+            List<int> numbers = new List<int>();  //все числа
+            List<int> prime = new List<int>();   //простые числа
+
 
             for (int i = 0; i < temp.Length; i++)
             {
                 int tmp = 0;
-                numbers.Add(int.Parse(temp[i]));
+                numbers.Add(int.Parse(temp[i])); //считываем все числа
+                //ищем простые и заносим в лист простых
                 for (int k = 1; k <= int.Parse(temp[i]); k++)
-                {
                     if (int.Parse(temp[i]) % k == 0)
-                    {
                         tmp++;
-                    }
-                }
-
+                        
                 if (tmp == 2) prime.Add(int.Parse(temp[i]));
-
-
             }
-            numbers.Sort(); //сортиреум
+            //сортируем, чтобы вывести макс и мин
+            numbers.Sort(); 
             prime.Sort();
 
-            Console.WriteLine("\n\nMIN: {0}, MAX: {1}", numbers[0], numbers[numbers.Count() - 1]);
-            Console.WriteLine("\n\nMIN: {0}, MAX: {1}", prime[0], prime[prime.Count() - 1]);
+            Console.WriteLine("\n\nMAX NUMBER: {1}, MIN MAX NUMBER: {0}", numbers[0], numbers[numbers.Count() - 1]);
+            Console.WriteLine("\n\nMAX PRIME: {1}, MIN PRIME: {0}", prime[0], prime[prime.Count() - 1]);
             Console.ReadKey();
         }
     }
