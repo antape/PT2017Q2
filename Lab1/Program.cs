@@ -10,11 +10,15 @@ namespace Lab1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Лабараторная работа #1, студент Джусупов Ануар\nНажмите любую клавишу для продолжения...");
+            Console.ReadKey();
+            Console.Clear();
 
+            Console.WriteLine("Задание #1\nНапишите приложение для нахождения простого числа из заданного набора. Набор задается в виде входящей строки в переменную string[] args.");
+            Console.ReadKey();
+            
             Console.WriteLine("Количество цифр: {0}", args.Length);
             
-
-           
             for (int i = 0; i < args.Length; i++){
                 int tmp = 0;
                 for (int k = 1; k <= int.Parse(args[i]); k++)
@@ -35,8 +39,11 @@ namespace Lab1
 
             Console.ReadKey();
 
+            Console.WriteLine("\nНажмите любую клавишу для продолжения...");
+            Console.ReadKey();
+            Console.Clear();
             
-           Student s = new Student("Anuar", "Jussupov", 21, 4.0, 2);                  
+           Student s = new Student("Anuar", "Jussupov", 25, 3.0, 2);                  
            Console.WriteLine("Name: {0} \nSurname: {1} \nAge: {2} \nGPA: {3} \nCourse: {4}", s.name, s.surname, s.age, s.gpa, s.course);
             Console.WriteLine(s);
 
@@ -99,4 +106,3 @@ namespace Lab1
         }
 
     }
-}
