@@ -10,6 +10,32 @@ namespace Lab1
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("Количество цифр: {0}", args.Length);
+            
+
+           
+            for (int i = 0; i < args.Length; i++){
+                int tmp = 0;
+                for (int k = 1; k <= int.Parse(args[i]); k++)
+                {
+                    if (int.Parse(args[i]) % k == 0)
+                    {
+                        tmp++; 
+                    }
+                }
+                if (tmp == 2)
+                {
+
+                    Console.WriteLine("{0} Простое число", int.Parse(args[i]));
+                }
+                else { Console.WriteLine("{0} Не простое число", int.Parse(args[i])); }
+            }
+
+
+            Console.ReadKey();
+
+            
            Student s = new Student("Anuar", "Jussupov", 21, 4.0, 2);                  
            Console.WriteLine("Name: {0} \nSurname: {1} \nAge: {2} \nGPA: {3} \nCourse: {4}", s.name, s.surname, s.age, s.gpa, s.course);
             Console.WriteLine(s);
@@ -69,7 +95,8 @@ namespace Lab1
             return name + "\n" + surname + "\n" + age + "\n" + gpa + "\n" + course + "\n";
 
         }
+            
+        }
 
     }
-
 }
