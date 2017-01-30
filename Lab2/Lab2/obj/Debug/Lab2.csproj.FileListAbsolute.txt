@@ -4,3 +4,5 @@ C:\Users\Anuar\Source\Repos\PT2017Q2\Lab2\Lab2\bin\Debug\Lab2_1.exe
 C:\Users\Anuar\Source\Repos\PT2017Q2\Lab2\Lab2\bin\Debug\Lab2_1.pdb
 C:\Users\Anuar\Source\Repos\PT2017Q2\Lab2\Lab2\obj\Debug\Lab2_1.exe
 C:\Users\Anuar\Source\Repos\PT2017Q2\Lab2\Lab2\obj\Debug\Lab2_1.pdb
+C:\Users\anyap\Source\Repos\PT2017Q2\Lab2\Lab2\bin\Debug\Lab2_1.exe.config
+C:\Users\anyap\Source\Repos\PT2017Q2\Lab2\Lab2\obj\Debug\Lab2_1.pdb

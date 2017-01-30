@@ -10,3 +10,9 @@ C:\Users\a_dzhusupov\Source\Repos\PT2017Q2\Lab1\bin\Debug\Lab1.exe
 C:\Users\a_dzhusupov\Source\Repos\PT2017Q2\Lab1\bin\Debug\Lab1.pdb
 C:\Users\a_dzhusupov\Source\Repos\PT2017Q2\Lab1\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
 C:\Users\a_dzhusupov\Source\Repos\PT2017Q2\Lab1\obj\Debug\Lab1.exe
+C:\Users\anyap\Source\Repos\PT2017Q2\Lab1\bin\Debug\Lab1.exe.config
+C:\Users\anyap\Source\Repos\PT2017Q2\Lab1\obj\Debug\Lab1.pdb
+C:\Users\anyap\Source\Repos\PT2017Q2\Lab1\bin\Debug\Lab1.exe
+C:\Users\anyap\Source\Repos\PT2017Q2\Lab1\bin\Debug\Lab1.pdb
+C:\Users\anyap\Source\Repos\PT2017Q2\Lab1\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
+C:\Users\anyap\Source\Repos\PT2017Q2\Lab1\obj\Debug\Lab1.exe
