@@ -14,16 +14,23 @@ namespace MidTerm_task3
         {
             Thread t = new Thread(func);
             t.Name = "Test1";
-
+            int tmp = 0;
+            Console.WriteLine("Enter - start, S - susspend, R - resume, Esc - exit");
             while (true) {
 
-                ConsoleKeyInfo pressedKey = Console.ReadKey();
-            if (pressedKey.Key == ConsoleKey.Enter)
-                t.Start();
-            if (pressedKey.Key == ConsoleKey.S)
-                t.Suspend();
-            if (pressedKey.Key == ConsoleKey.R)
-                t.Resume();
+
+                ConsoleKeyInfo pressedKey = Console.ReadKey(true);
+                if (pressedKey.Key == ConsoleKey.Enter)
+                    t.Start();
+                if (pressedKey.Key == ConsoleKey.S)
+                {
+                    t.Suspend();
+                    tmp = 1;
+                }
+                else if ((pressedKey.Key == ConsoleKey.R) && tmp == 1)
+                    t.Resume();
+                    
+                
             if (pressedKey.Key == ConsoleKey.Escape)
                 {
                     t.Abort();
@@ -35,17 +42,22 @@ namespace MidTerm_task3
 
             
             
-            Console.ReadKey();
+            
 
         }
 
         static void func()
         {
             int i = 0;
+            
             while (i < 1000)
             {
+
+
+                Console.SetCursorPosition(0, 1);
+                Console.CursorVisible = false;
+                Console.WriteLine("Sec " + i);
                 
-                Console.WriteLine(i);
                 i++;
                 Thread.Sleep(1000);
             }
