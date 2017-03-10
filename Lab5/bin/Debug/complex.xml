@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Complex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <a>2</a>
+  <b>4</b>
+</Complex><?xml version="1.0"?>
+<Complex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <a>2</a>
+  <b>9</b>
+</Complex><?xml version="1.0"?>
+<Complex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <a>4</a>
+  <b>13</b>
+</Complex>
