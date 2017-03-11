@@ -1,0 +1,6 @@
+C:\Users\anyap\Source\Repos\PT2017Q2\AnimationTest\bin\Debug\AnimationTest.exe.config
+C:\Users\anyap\Source\Repos\PT2017Q2\AnimationTest\bin\Debug\AnimationTest.exe
+C:\Users\anyap\Source\Repos\PT2017Q2\AnimationTest\bin\Debug\AnimationTest.pdb
+C:\Users\anyap\Source\Repos\PT2017Q2\AnimationTest\obj\Debug\AnimationTest.csprojResolveAssemblyReference.cache
+C:\Users\anyap\Source\Repos\PT2017Q2\AnimationTest\obj\Debug\AnimationTest.exe
+C:\Users\anyap\Source\Repos\PT2017Q2\AnimationTest\obj\Debug\AnimationTest.pdb
