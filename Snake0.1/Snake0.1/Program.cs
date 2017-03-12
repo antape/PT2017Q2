@@ -32,6 +32,37 @@ namespace Snake0._1
             this.frY = frY;
             this.active = active;
         }
+
+        public Fruit()
+        {
+            
+        }
+
+        public void test()
+        {
+            Random rnd = new Random();
+
+            Fruit[] fruit = new Fruit[3];
+            int i = 0;
+            while (i != fruit.Length)
+            {
+                fruit[i] = new Fruit(rnd.Next(1, 20), rnd.Next(1, 20), 0);
+                i++;
+            }
+
+            i = 0;
+            while (i != fruit.Length)
+            {
+                if (fruit[i].active == 0)
+                {
+                    Console.SetCursorPosition(fruit[i].frX, fruit[i].frY);
+                    Console.Write("F"); // флаг
+                }
+                i++;
+            }
+
+            
+        }
       
 
     }
@@ -48,24 +79,30 @@ namespace Snake0._1
 
             
 
-            Random rnd = new Random();
+            
             //создаем уровень
             Level level = new Level(1, 30, 1, 20);
 
             
 
-            
+
+
+
+            int i = 0;
 
             //создаем фрукты
+            
+            Random rnd = new Random();
             Fruit[] fruit = new Fruit[3];
-            int i = 0;
+            
             while (i != fruit.Length)
             {
                 fruit[i] = new Fruit(rnd.Next(1, 20), rnd.Next(1, 20), 0);
                 i++;
             }
             
-                
+
+
 
             Console.CursorVisible = false; // гасим курсор
             ConsoleKeyInfo k;
@@ -80,10 +117,13 @@ namespace Snake0._1
             int flagX = 25;
             int flagY = 5;
             int tmp = 0;
+            
 
             do
             {
-                Console.Clear();
+               Console.Clear();
+
+
                 /*
                 int t = 0;
                 while (t != level.rX+1)
@@ -92,10 +132,10 @@ namespace Snake0._1
                     Console.Write('+');
                     
                     t++;
-                }*/
+                }
 
+                */
 
-                
 
                 Console.SetCursorPosition(0, 1);
                 Console.Write(points);
@@ -109,6 +149,9 @@ namespace Snake0._1
                 Console.Write("F"); // флаг
                 }
 
+                
+
+                
                 i = 0;
                 while (i != fruit.Length)
                 {
@@ -166,6 +209,7 @@ namespace Snake0._1
 
 
                 i = 0;
+                
                 while (i != fruit.Length)
                 {
                     if (fruit[i].active == 0 && playerX == fruit[i].frX && playerY == fruit[i].frY)
