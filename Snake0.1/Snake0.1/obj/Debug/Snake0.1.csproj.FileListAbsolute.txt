@@ -1,0 +1,6 @@
+C:\Users\Anuar\Source\Repos\PT2017Q2\Snake0.1\Snake0.1\bin\Debug\Snake0.1.exe.config
+C:\Users\Anuar\Source\Repos\PT2017Q2\Snake0.1\Snake0.1\bin\Debug\Snake0.1.exe
+C:\Users\Anuar\Source\Repos\PT2017Q2\Snake0.1\Snake0.1\bin\Debug\Snake0.1.pdb
+C:\Users\Anuar\Source\Repos\PT2017Q2\Snake0.1\Snake0.1\obj\Debug\Snake0.1.csprojResolveAssemblyReference.cache
+C:\Users\Anuar\Source\Repos\PT2017Q2\Snake0.1\Snake0.1\obj\Debug\Snake0.1.exe
+C:\Users\Anuar\Source\Repos\PT2017Q2\Snake0.1\Snake0.1\obj\Debug\Snake0.1.pdb

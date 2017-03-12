@@ -3,3 +3,9 @@ C:\Users\anyap\Source\Repos\PT2017Q2\AnimationTest2\bin\Debug\AnimationTest2.exe
 C:\Users\anyap\Source\Repos\PT2017Q2\AnimationTest2\bin\Debug\AnimationTest2.pdb
 C:\Users\anyap\Source\Repos\PT2017Q2\AnimationTest2\obj\Debug\AnimationTest2.exe
 C:\Users\anyap\Source\Repos\PT2017Q2\AnimationTest2\obj\Debug\AnimationTest2.pdb
+C:\Users\Anuar\Source\Repos\PT2017Q2\AnimationTest2\bin\Debug\AnimationTest2.exe.config
+C:\Users\Anuar\Source\Repos\PT2017Q2\AnimationTest2\obj\Debug\AnimationTest2.pdb
+C:\Users\Anuar\Source\Repos\PT2017Q2\AnimationTest2\bin\Debug\AnimationTest2.exe
+C:\Users\Anuar\Source\Repos\PT2017Q2\AnimationTest2\bin\Debug\AnimationTest2.pdb
+C:\Users\Anuar\Source\Repos\PT2017Q2\AnimationTest2\obj\Debug\AnimationTest2.csprojResolveAssemblyReference.cache
+C:\Users\Anuar\Source\Repos\PT2017Q2\AnimationTest2\obj\Debug\AnimationTest2.exe

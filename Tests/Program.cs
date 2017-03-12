@@ -11,15 +11,16 @@ namespace Tests
     {
         static void Main(string[] args)
         {
-            Thread t = new Thread(new ThreadStart(DoIt));
-            t.Start();
+            // Thread t = new Thread(new ThreadStart(DoIt));
+            //t.Start();
+            DoIt();
         }
 
         static void DoIt()
         {
             while (true)
             {
-                Thread.Sleep(1000);
+                //Thread.Sleep(1000);
                 Console.WriteLine("*");
             }
         }

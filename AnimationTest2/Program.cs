@@ -25,7 +25,7 @@ namespace ThreadExample
                 x += dx;
                 y += dy;
                 Console.SetCursorPosition(x, y);
-                Console.Write('*');
+                Console.Write("**");
             }
         }
         public void stop()

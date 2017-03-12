@@ -4,3 +4,5 @@ C:\Users\anyap\Source\Repos\PT2017Q2\MidTerm_task3\bin\Debug\MidTerm_task3.pdb
 C:\Users\anyap\Source\Repos\PT2017Q2\MidTerm_task3\obj\Debug\MidTerm_task3.exe
 C:\Users\anyap\Source\Repos\PT2017Q2\MidTerm_task3\obj\Debug\MidTerm_task3.pdb
 C:\Users\anyap\Source\Repos\PT2017Q2\MidTerm_task3\obj\Debug\MidTerm_task3.csprojResolveAssemblyReference.cache
+C:\Users\Anuar\Source\Repos\PT2017Q2\MidTerm_task3\bin\Debug\MidTerm_task3.exe.config
+C:\Users\Anuar\Source\Repos\PT2017Q2\MidTerm_task3\obj\Debug\MidTerm_task3.pdb

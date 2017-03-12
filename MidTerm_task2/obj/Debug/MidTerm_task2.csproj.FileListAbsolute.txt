@@ -3,3 +3,5 @@ C:\Users\anyap\Source\Repos\PT2017Q2\MidTerm_task2\bin\Debug\MidTerm_task2.exe
 C:\Users\anyap\Source\Repos\PT2017Q2\MidTerm_task2\bin\Debug\MidTerm_task2.pdb
 C:\Users\anyap\Source\Repos\PT2017Q2\MidTerm_task2\obj\Debug\MidTerm_task2.exe
 C:\Users\anyap\Source\Repos\PT2017Q2\MidTerm_task2\obj\Debug\MidTerm_task2.pdb
+C:\Users\Anuar\Source\Repos\PT2017Q2\MidTerm_task2\bin\Debug\MidTerm_task2.exe.config
+C:\Users\Anuar\Source\Repos\PT2017Q2\MidTerm_task2\obj\Debug\MidTerm_task2.pdb

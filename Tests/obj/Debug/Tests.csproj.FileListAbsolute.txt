@@ -4,3 +4,9 @@ C:\Users\anyap\Source\Repos\PT2017Q2\Tests\bin\Debug\Tests.exe
 C:\Users\anyap\Source\Repos\PT2017Q2\Tests\bin\Debug\Tests.pdb
 C:\Users\anyap\Source\Repos\PT2017Q2\Tests\obj\Debug\Tests.exe
 C:\Users\anyap\Source\Repos\PT2017Q2\Tests\obj\Debug\Tests.pdb
+C:\Users\Anuar\Source\Repos\PT2017Q2\Tests\bin\Debug\Tests.exe.config
+C:\Users\Anuar\Source\Repos\PT2017Q2\Tests\obj\Debug\Tests.pdb
+C:\Users\Anuar\Source\Repos\PT2017Q2\Tests\bin\Debug\Tests.exe
+C:\Users\Anuar\Source\Repos\PT2017Q2\Tests\bin\Debug\Tests.pdb
+C:\Users\Anuar\Source\Repos\PT2017Q2\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\Anuar\Source\Repos\PT2017Q2\Tests\obj\Debug\Tests.exe
