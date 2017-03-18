@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
+using System.Xml.Serialization;
+using System.Xml;
 
 namespace Snake0._1
 {
@@ -67,7 +70,22 @@ namespace Snake0._1
 
     }
 
-   
+    [Serializable]
+    public class Points
+    {
+        public int a;
+        public Points(int A)
+        {
+            this.a = A;
+        }
+        public Points()
+        {
+
+        }
+    }
+
+
+
 
     class Program
     {
@@ -93,8 +111,11 @@ namespace Snake0._1
             //создаем фрукты
             
             Random rnd = new Random();
-            Fruit[] fruit = new Fruit[3];
+           
+            Fruit[] fruit = new Fruit[10];
             
+
+
             while (i != fruit.Length)
             {
                 fruit[i] = new Fruit(rnd.Next(1, 20), rnd.Next(1, 20), 0);
@@ -102,7 +123,7 @@ namespace Snake0._1
             }
             
 
-
+            
 
             Console.CursorVisible = false; // гасим курсор
             ConsoleKeyInfo k;
@@ -111,7 +132,11 @@ namespace Snake0._1
             int playerX = 15;
             int playerY = 15;
             char playerChar = '*';
-            int points = 0;
+
+            Points points = new Points(0);
+
+            
+            //int points = 0;
 
             // Координаты флага
             int flagX = 25;
@@ -138,16 +163,16 @@ namespace Snake0._1
 
 
                 Console.SetCursorPosition(0, 1);
-                Console.Write(points);
+                Console.Write(points.a);
                 
 
 
-
+                /*
                 
                 if (tmp == 0) { 
                 Console.SetCursorPosition(flagX, flagY);
                 Console.Write("F"); // флаг
-                }
+                }*/
 
                 
 
@@ -204,7 +229,7 @@ namespace Snake0._1
                 if (tmp == 0 && playerX == flagX && playerY == flagY)
                 {
                         tmp = 1;
-                        points++;
+                        points.a++;
                 }
 
 
@@ -215,13 +240,28 @@ namespace Snake0._1
                     if (fruit[i].active == 0 && playerX == fruit[i].frX && playerY == fruit[i].frY)
                     {
                         fruit[i].active = 1;
-                        points++;
+                        points.a++;
                     }
                     i++;
                 }
+                XmlSerializer formatter = new XmlSerializer(typeof(Points));
+                if (k.Key == ConsoleKey.R)
+                {
+                   
+                    using (FileStream fs = new FileStream("test1.xml", FileMode.Create))
+                    {
+                        formatter.Serialize(fs, points);
+                        
+                    }
+                }
 
-
-                
+                if (k.Key == ConsoleKey.L)
+                {
+                    using (FileStream fs = new FileStream("test1.xml", FileMode.Open))
+                    {
+                        points = (Points)formatter.Deserialize(fs);
+                    }
+                }
 
             } while (k.Key != ConsoleKey.Escape); // выходим из цикла по нажатию Esc
 

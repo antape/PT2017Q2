@@ -4,3 +4,9 @@ C:\Users\Anuar\Source\Repos\PT2017Q2\TSIS2\bin\Debug\TSIS2.pdb
 C:\Users\Anuar\Source\Repos\PT2017Q2\TSIS2\obj\Debug\TSIS2.exe
 C:\Users\Anuar\Source\Repos\PT2017Q2\TSIS2\obj\Debug\TSIS2.pdb
 C:\Users\Anuar\Source\Repos\PT2017Q2\TSIS2\obj\Debug\TSIS2.csprojResolveAssemblyReference.cache
+C:\Users\anyap\Source\Repos\PT2017Q2\TSIS2\bin\Debug\TSIS2.exe.config
+C:\Users\anyap\Source\Repos\PT2017Q2\TSIS2\obj\Debug\TSIS2.pdb
+C:\Users\anyap\Source\Repos\PT2017Q2\TSIS2\bin\Debug\TSIS2.exe
+C:\Users\anyap\Source\Repos\PT2017Q2\TSIS2\bin\Debug\TSIS2.pdb
+C:\Users\anyap\Source\Repos\PT2017Q2\TSIS2\obj\Debug\TSIS2.csprojResolveAssemblyReference.cache
+C:\Users\anyap\Source\Repos\PT2017Q2\TSIS2\obj\Debug\TSIS2.exe

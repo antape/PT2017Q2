@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
+using System.IO;
+using System.Xml.Serialization;
+using System.Xml;
 
 namespace TSIS2
 {
+    
     class Program
     {
 
@@ -24,13 +28,51 @@ namespace TSIS2
         static void Main(string[] args)
         {
             Random _random = new Random();
-            Worker w = new Worker();
-            Thread t = new Thread(new ThreadStart(w.work));
-            double num = _random.NextDouble();
-            w.timer = (int)(w.timer * num);
-            t.Start();
+            Worker[] w = new Worker[50];
+            Worker2 d = new Worker2(15);
+            d = new Worker2(15);
 
+
+
+
+            for (int i = 0; i < 50;i++)
+            {
+                w[i] = new Worker(i*3);
+                
+            }
+
+            Thread t = new Thread(w[0].work);
+            Thread x = new Thread(d.work);
+            t.Start();
+            x.Start();
+
+
+            //Thread[] t = new Thread[50];
+            /*
+            for (int i = 0; i < 50; i++)
+            {
+                
+              //  t[i] = new Thread(w[i].work);
+                //t[i].Start();
+                
+                double num = _random.NextDouble();
+                w[i].timer = (int)(w[i].timer * num);
+                
+            }
+        */
+            /*
+            for (int i = 0; i < 50; i++)
+            {
+
+                t[i].Start();
+                double num = _random.NextDouble();
+                w[i].timer = (int)(w[i].timer * num);
+
+            }
             
+            */
+
+
         }
 
 
@@ -39,34 +81,68 @@ namespace TSIS2
             public bool isActive = true;
             public int flagY = 1;
             public int timer = 1000;
-            ConsoleKeyInfo k;
+            public int left;
             
+            public readonly static object locker = new object();
+            public Worker(int l)
+            {
+                left = l;
+            }
 
             public void work()
             {
-                k = Console.ReadKey(true);
-
-
-                while (k.Key != ConsoleKey.Escape)
+                lock(locker)
                 {
+                    //k = Console.ReadKey(true);
 
-                    flagY++;
-                    
 
-                    Console.SetCursorPosition(0, flagY - 1);
-                    Console.Write(' ');
-                    Console.SetCursorPosition(0, flagY);
-                    Console.Write(RandomLetter.GetLetter());
-                    Console.SetCursorPosition(0, flagY + 1);
-                    Console.Write(RandomLetter.GetLetter());
-                    Console.SetCursorPosition(0, flagY + 2);
-                    Console.Write(RandomLetter.GetLetter());
-                    Thread.Sleep(timer);
+                    while (true)
+                    {
 
-                    
+                        flagY++;
+
+
+                        Console.SetCursorPosition(left, flagY - 1);
+                        Console.Write(' ');
+                        Console.SetCursorPosition(left, flagY);
+                        Console.Write(RandomLetter.GetLetter());
+                        Console.SetCursorPosition(left, flagY + 1);
+                        Console.Write(RandomLetter.GetLetter());
+                        Console.SetCursorPosition(left, flagY + 2);
+                        Console.Write(RandomLetter.GetLetter());
+                        Thread.Sleep(timer);
+
+
+                        /*
+                        flagY++;
+
+
+                        Console.CursorLeft = left;
+                        Console.CursorTop = flagY - 1;
+                        Console.Write(' ');
+
+                        Console.CursorTop = flagY;
+                        Console.Write(RandomLetter.GetLetter());
+                        Console.CursorTop = flagY+1;
+                        Console.Write(RandomLetter.GetLetter());
+                        Console.CursorTop = flagY+2;
+                        Console.Write(RandomLetter.GetLetter());
+                        /*
+                        Console.SetCursorPosition(left, flagY);
+                        Console.Write(RandomLetter.GetLetter());
+                        Console.SetCursorPosition(left, flagY + 1);
+                        Console.Write(RandomLetter.GetLetter());
+                        Console.SetCursorPosition(left, flagY + 2);
+                        Console.Write(RandomLetter.GetLetter());
+                        
+                        Thread.Sleep(timer);
+                        */
+
+
+                    }
 
                 }
-                
+
             }
 
 
@@ -76,6 +152,81 @@ namespace TSIS2
             }
         }
 
-       
+        public class Worker2
+        {
+            public bool isActive = true;
+            public int flagY = 1;
+            public int timer = 1000;
+            public int left;
+
+            public readonly static object locker = new object();
+            public Worker2(int l)
+            {
+                left = l;
+            }
+
+            public void work()
+            {
+                lock(locker)
+                {
+                    //k = Console.ReadKey(true);
+
+
+                    while (true)
+                    {
+
+                        flagY++;
+
+
+                        Console.SetCursorPosition(left, flagY - 1);
+                        Console.Write(' ');
+                        Console.SetCursorPosition(left, flagY);
+                        Console.Write(RandomLetter.GetLetter());
+                        Console.SetCursorPosition(left, flagY + 1);
+                        Console.Write(RandomLetter.GetLetter());
+                        Console.SetCursorPosition(left, flagY + 2);
+                        Console.Write(RandomLetter.GetLetter());
+                        Thread.Sleep(timer);
+
+
+                        /*
+                        flagY++;
+
+
+                        Console.CursorLeft = left;
+                        Console.CursorTop = flagY - 1;
+                        Console.Write(' ');
+
+                        Console.CursorTop = flagY;
+                        Console.Write(RandomLetter.GetLetter());
+                        Console.CursorTop = flagY+1;
+                        Console.Write(RandomLetter.GetLetter());
+                        Console.CursorTop = flagY+2;
+                        Console.Write(RandomLetter.GetLetter());
+                        /*
+                        Console.SetCursorPosition(left, flagY);
+                        Console.Write(RandomLetter.GetLetter());
+                        Console.SetCursorPosition(left, flagY + 1);
+                        Console.Write(RandomLetter.GetLetter());
+                        Console.SetCursorPosition(left, flagY + 2);
+                        Console.Write(RandomLetter.GetLetter());
+                        
+                        Thread.Sleep(timer);
+                        */
+
+
+                    }
+
+                }
+
+            }
+
+
+            public void stop()
+            {
+                isActive = false;
+            }
+        }
+
     }
 }
