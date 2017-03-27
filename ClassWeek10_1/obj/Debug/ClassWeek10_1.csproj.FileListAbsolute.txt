@@ -1,0 +1,6 @@
+C:\Users\anyap\Source\Repos\PT2017Q2\ClassWeek10_1\bin\Debug\ClassWeek10_1.exe.config
+C:\Users\anyap\Source\Repos\PT2017Q2\ClassWeek10_1\bin\Debug\ClassWeek10_1.exe
+C:\Users\anyap\Source\Repos\PT2017Q2\ClassWeek10_1\bin\Debug\ClassWeek10_1.pdb
+C:\Users\anyap\Source\Repos\PT2017Q2\ClassWeek10_1\obj\Debug\ClassWeek10_1.csprojResolveAssemblyReference.cache
+C:\Users\anyap\Source\Repos\PT2017Q2\ClassWeek10_1\obj\Debug\ClassWeek10_1.exe
+C:\Users\anyap\Source\Repos\PT2017Q2\ClassWeek10_1\obj\Debug\ClassWeek10_1.pdb

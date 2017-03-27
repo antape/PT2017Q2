@@ -13,6 +13,13 @@ namespace Lab9
         public double result;
         public string operations;
 
+        public double plusminus(double operand)
+        {
+            operand *= -1;
+            return operand;
+        }
+
+
         public void calculate()
         {
             if (operations == "+")
@@ -33,7 +40,15 @@ namespace Lab9
             {
                 result = firstoperand/secondoperand;
             }
-            
+            if (operations == " ")
+            {
+                result = secondoperand;
+            }
+            if (operations == "%")
+            {
+                result = (firstoperand/100) * secondoperand;
+            }
+
         }
 
         public void wipe()

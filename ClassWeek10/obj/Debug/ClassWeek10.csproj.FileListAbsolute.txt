@@ -1,0 +1,9 @@
+C:\Users\anyap\Source\Repos\PT2017Q2\ClassWeek10\bin\Debug\ClassWeek10.exe.config
+C:\Users\anyap\Source\Repos\PT2017Q2\ClassWeek10\bin\Debug\ClassWeek10.exe
+C:\Users\anyap\Source\Repos\PT2017Q2\ClassWeek10\bin\Debug\ClassWeek10.pdb
+C:\Users\anyap\Source\Repos\PT2017Q2\ClassWeek10\obj\Debug\ClassWeek10.csprojResolveAssemblyReference.cache
+C:\Users\anyap\Source\Repos\PT2017Q2\ClassWeek10\obj\Debug\ClassWeek10.Form1.resources
+C:\Users\anyap\Source\Repos\PT2017Q2\ClassWeek10\obj\Debug\ClassWeek10.Properties.Resources.resources
+C:\Users\anyap\Source\Repos\PT2017Q2\ClassWeek10\obj\Debug\ClassWeek10.csproj.GenerateResource.Cache
+C:\Users\anyap\Source\Repos\PT2017Q2\ClassWeek10\obj\Debug\ClassWeek10.exe
+C:\Users\anyap\Source\Repos\PT2017Q2\ClassWeek10\obj\Debug\ClassWeek10.pdb

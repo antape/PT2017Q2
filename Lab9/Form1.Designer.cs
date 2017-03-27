@@ -49,6 +49,10 @@
             this.button20 = new System.Windows.Forms.Button();
             this.displayBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -219,6 +223,7 @@
             this.button18.TabIndex = 14;
             this.button18.Text = "<-";
             this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // button19
             // 
@@ -228,6 +233,7 @@
             this.button19.TabIndex = 15;
             this.button19.Text = "-/+";
             this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // button20
             // 
@@ -260,11 +266,55 @@
             this.label1.Size = new System.Drawing.Size(0, 31);
             this.label1.TabIndex = 18;
             // 
+            // button16
+            // 
+            this.button16.Location = new System.Drawing.Point(12, 315);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(50, 35);
+            this.button16.TabIndex = 19;
+            this.button16.Text = "MC";
+            this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
+            // 
+            // button21
+            // 
+            this.button21.Location = new System.Drawing.Point(124, 315);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(50, 35);
+            this.button21.TabIndex = 20;
+            this.button21.Text = "MS";
+            this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
+            // 
+            // button22
+            // 
+            this.button22.Location = new System.Drawing.Point(68, 315);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(50, 35);
+            this.button22.TabIndex = 20;
+            this.button22.Text = "MR";
+            this.button22.UseVisualStyleBackColor = true;
+            this.button22.Click += new System.EventHandler(this.button22_Click);
+            // 
+            // button23
+            // 
+            this.button23.Location = new System.Drawing.Point(180, 315);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(50, 35);
+            this.button23.TabIndex = 20;
+            this.button23.Text = "%";
+            this.button23.UseVisualStyleBackColor = true;
+            this.button23.Click += new System.EventHandler(this.op_click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(242, 321);
+            this.ClientSize = new System.Drawing.Size(242, 354);
+            this.Controls.Add(this.button22);
+            this.Controls.Add(this.button23);
+            this.Controls.Add(this.button21);
+            this.Controls.Add(this.button16);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.displayBox);
             this.Controls.Add(this.button17);
@@ -316,6 +366,10 @@
         private System.Windows.Forms.Button button20;
         private System.Windows.Forms.TextBox displayBox;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.Button button23;
     }
 }
 
