@@ -1,0 +1,5 @@
+C:\Users\anyap\Source\Repos\PT2017Q2\ClassWeekForm12\bin\Debug\ClassWeekForm12.exe.config
+C:\Users\anyap\Source\Repos\PT2017Q2\ClassWeekForm12\obj\Debug\ClassWeekForm12.csprojResolveAssemblyReference.cache
+C:\Users\anyap\Source\Repos\PT2017Q2\ClassWeekForm12\obj\Debug\ClassWeekForm12.Form1.resources
+C:\Users\anyap\Source\Repos\PT2017Q2\ClassWeekForm12\obj\Debug\ClassWeekForm12.Properties.Resources.resources
+C:\Users\anyap\Source\Repos\PT2017Q2\ClassWeekForm12\obj\Debug\ClassWeekForm12.csproj.GenerateResource.Cache
