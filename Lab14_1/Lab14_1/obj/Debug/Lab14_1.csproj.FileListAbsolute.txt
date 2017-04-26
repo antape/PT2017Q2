@@ -1,0 +1,11 @@
+C:\Users\anyap\Source\Repos\PT2017Q2\Lab14_1\Lab14_1\bin\Debug\callbox.mdf
+C:\Users\anyap\Source\Repos\PT2017Q2\Lab14_1\Lab14_1\bin\Debug\callbox_log.ldf
+C:\Users\anyap\Source\Repos\PT2017Q2\Lab14_1\Lab14_1\bin\Debug\Lab14_1.exe.config
+C:\Users\anyap\Source\Repos\PT2017Q2\Lab14_1\Lab14_1\bin\Debug\Lab14_1.exe
+C:\Users\anyap\Source\Repos\PT2017Q2\Lab14_1\Lab14_1\bin\Debug\Lab14_1.pdb
+C:\Users\anyap\Source\Repos\PT2017Q2\Lab14_1\Lab14_1\obj\Debug\Lab14_1.csprojResolveAssemblyReference.cache
+C:\Users\anyap\Source\Repos\PT2017Q2\Lab14_1\Lab14_1\obj\Debug\Lab14_1.Form1.resources
+C:\Users\anyap\Source\Repos\PT2017Q2\Lab14_1\Lab14_1\obj\Debug\Lab14_1.Properties.Resources.resources
+C:\Users\anyap\Source\Repos\PT2017Q2\Lab14_1\Lab14_1\obj\Debug\Lab14_1.csproj.GenerateResource.Cache
+C:\Users\anyap\Source\Repos\PT2017Q2\Lab14_1\Lab14_1\obj\Debug\Lab14_1.exe
+C:\Users\anyap\Source\Repos\PT2017Q2\Lab14_1\Lab14_1\obj\Debug\Lab14_1.pdb
